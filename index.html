@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Twittler</h2>
+    </div>
+    <div class="sub-header">
+      <h3>"Twittle Words, Big Thoughts"</h3>
+    </div>
+
+    <div class="main">
+      <div class="home-buttons">
+        <button type="button" class="btn btn-default btn-lg refresh-tweets">
+            <span class="glyphicon glyphicon-refresh"></span>More Twittles
+        </button>
+
+        <button type="button" class="btn btn-default btn-lg add-tweet">
+          <span class="glyphicon glyphicon-pencil"></span>Twittle Yourself
+        </button>
+      </div>
+
+      <div class="user-buttons">
+        <button type="button" class="btn btn-default btn-lg back">
+            <span class="glyphicon glyphicon-arrow-left"></span>
+        </button>
+
+        <span><h3 class="user-header"></h3></span>
+
+        <button type="button" class="btn btn-default btn-lg add-tweet">
+          <span class="glyphicon glyphicon-pencil"></span>
+        </button>
+      </div>
+
+      <form role="form" class="new-tweet">
+        <h3>What's twittling you now?</h3>
+        <button type="button" class="btn cancel-form btn-danger"><span class="glyphicon glyphicon-remove"></span></button>
+        <div class="input-group">
+          <span class="input-group-addon">@</span>
+          <input type="text" class="form-control" id="newTweetUserName" placeholder="Username">
+        </div>
+        <div class="input-group">
+          <span class="input-group-addon glyphicon glyphicon-comment"></span>
+          <textarea class="form-control" id="newTweet" placeholder="Twittle words, big thoughts..." maxlength="160" rows="3"></textarea>
+        </div>
+        <button class="btn btn-default btn-lg post-tweet" type="submit">Post</button>
+      </form>
+
+      <div class="tweet-list">
+      </div>
+    </div>
+
+    <div class="footer"><span>Copyright Info Goes Here<span></div>
+
+    
+    <script src="jquery.js"></script>
+    <script src="data_generator.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
