@@ -18,3 +18,8 @@ Known Issues:
 * Enter key in <textarea> of new tweet form should submit the form
 * User header should be larger
 * Fix to cycle tab order within new tweet form seems to have made it impossible to tab to tweet elements, even when form is hidden
+
+
+Wish List:
+*Move data_generator.js code into an AngularJS service and take advantage of 2-way data binding to make refresh button unnecessary
+*Use Angular views/templates to separate home tweet list and user tweet list
