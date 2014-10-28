@@ -21,5 +21,5 @@ Known Issues:
 
 
 Wish List:
-*Move data_generator.js code into an AngularJS service and take advantage of 2-way data binding to make refresh button unnecessary
-*Use Angular views/templates to separate home tweet list and user tweet list
+* Move data_generator.js code into an AngularJS service and take advantage of 2-way data binding to make refresh button unnecessary
+* Use Angular views/templates to separate home tweet list and user tweet list
